@@ -75,7 +75,134 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## Additional Personas (New additions)
+
+### Technical Lead
+Role summary: Senior engineer responsible for technical architecture, design decisions, and technical quality across the project.
+
+Responsibilities:
+- Define and validate architecture choices and key technical approaches
+- Ensure non-functional requirements (scalability, performance, maintainability) are addressed
+- Mentor engineers and coordinate technical design reviews
+
+Interaction with existing roles:
+- Works with Developers to translate designs into implementations
+- Advises PM/PdM on technical trade-offs and effort implications
+- Collaborates with QA on test strategy and acceptance criteria
+
+---
+
+### UX Designer
+Role summary: Responsible for user research, interaction design, and ensuring design quality and usability.
+
+Responsibilities:
+- Lead user research and prototype testing for features
+- Produce wireframes, interaction specs, and visual assets
+- Validate designs against acceptance criteria
+
+Interaction with existing roles:
+- Partner with PdM to align user needs and product goals
+- Deliver design handoffs to Developers and clarify UX intent
+- Work with QA to define usability acceptance checks
+
+---
+
+### Release Engineer (Release Manager)
+Role summary: Coordinates release pipelines, deployment schedules, and rollbacks for production changes.
+
+Responsibilities:
+- Maintain deployment pipelines and release checklists
+- Coordinate staging/production deployments and rollback plans
+- Ensure release notes and stakeholder communications are prepared
+
+Interaction with existing roles:
+- Works with PM/PdM to schedule release windows
+- Coordinates with DevOps/Platform and Security for safe deployments
+- Notifies Support/Customer Success and Stakeholders on release outcomes
+
+---
+
+### Security Lead
+Role summary: Ensures security requirements and reviews are part of project lifecycle.
+
+Responsibilities:
+- Conduct threat modelling and security reviews
+- Coordinate security scans and remediation plans
+- Define and validate security acceptance criteria
+
+Interaction with existing roles:
+- Advises Developers and Technical Lead on secure design
+- Works with Release Engineer and DevOps on secure deployment practices
+- Escalates security risks to PM/PD when business impact is identified
+
+---
+
+### Data Analyst / Data Lead
+Role summary: Owns data definitions, tracking, and analysis that measure success metrics.
+
+Responsibilities:
+- Define instrumentation and metrics to validate success criteria
+- Create dashboards and analysis to inform product decisions
+- Validate data quality and report on outcomes post-release
+
+Interaction with existing roles:
+- Works with PdM to define measurable success criteria
+- Provides Developers with schema and tracking requirements
+- Supports retrospectives with data-driven insights
+
+---
+
+### Customer Success / Support Liaison
+Role summary: Represents customer-facing insights and coordinates support readiness.
+
+Responsibilities:
+- Surface customer feedback and support trends to the team
+- Prepare knowledge base updates and runbook changes for releases
+- Coordinate post-release support and escalations
+
+Interaction with existing roles:
+- Works with PM/PdM on prioritizing customer-impacting fixes
+- Coordinates with Release Engineer for stakeholder communications
+- Collaborates with QA on reproducing customer issues
+
+---
+
+### DevOps / Platform Engineer
+Role summary: Builds and maintains infrastructure, CI/CD, and platform services.
+
+Responsibilities:
+- Maintain infrastructure-as-code and CI pipelines
+- Monitor platform health and respond to incidents
+- Optimize deployment reliability and scalability
+
+Interaction with existing roles:
+- Works with Developers/Technical Lead during architecture and deployments
+- Coordinates with Release Engineer and Security Lead for production changes
+- Provides operational runbooks for Support and Customer Success
+
+---
+
+### Change Manager (optional for larger programs)
+Role summary: Manages organizational change impact, stakeholder readiness, and rollout coordination.
+
+Responsibilities:
+- Plan stakeholder communications and training for major changes
+- Assess organizational readiness and adoption risks
+- Track adoption metrics post-release
+
+Interaction with existing roles:
+- Works with PM/PdM and Customer Success to coordinate rollout
+- Ensures documentation and training materials are available
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
 
+---
+
+## Next steps / Suggested edits
+- Add contact or on-call information where applicable (e.g., Security on-call)
+- Add links to team runbooks or org-specific role owners if available
+- Consider adding a short table that maps persona -> primary responsibilities for quick scanning
