@@ -1,43 +1,43 @@
 # OctoAcme Project Management Documentation
 
 ## Overview
-OctoAcme follows a structured, iterative project management approach that emphasizes customer value, clear ownership, data-informed decisions, and psychological safety. This documentation suite is the single entry point for our process docs and guidance for running cross-functional projects.
+OctoAcme follows a structured, iterative project management approach that emphasizes customer value, clear ownership, data-informed decisions, and psychological safety. This documentation set is the single entry point to our project processes and templates.
 
-## Quick Summary of Processes
-- Initiation — Validate the problem, stakeholders, and success metrics so projects are authorized with a lightweight plan.
-- Planning — Create the backlog, estimate scope, define the Definition of Done, and map releases and dependencies.
-- Execution & Tracking — Manage day-to-day work, run CI, track velocity, escalate blockers, and keep the risk register current.
-- Risks & Communication — Identify, assess, mitigate, and communicate risks to stakeholders with a clear escalation path.
-- Release & Deployment — Standardize release types, pre-release checks, and rollback/playbook procedures.
-- Retrospective & Improvement — Run post-release retrospectives, convert learnings to action items, and measure improvements.
-- Roles & Personas — Clarify responsibilities for Developers, Product Managers, Project Managers, QA, and Stakeholders.
-
-## Documents (in docs/)
-| Phase | Document | Purpose |
-|-------|----------|---------|
-| Overview | [Project Management Overview](octoacme-project-management-overview.md) | Core roles, principles, and lifecycle |
-| Initiation | [Project Initiation Guide](octoacme-project-initiation.md) | Validate need and authorize work |
-| Planning | [Project Planning](octoacme-project-planning.md) | Create actionable plans and backlog |
-| Execution | [Execution & Tracking](octoacme-execution-and-tracking.md) | Day-to-day management and progress |
-| Risk Management | [Risk Management & Communication](octoacme-risks-and-communication.md) | Identify and manage risks and dependencies |
-| Release | [Release & Deployment Guide](octoacme-release-and-deployment.md) | Standardize release processes |
-| Closure | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Capture learnings and improve |
-| Reference | [Roles & Personas](octoacme-roles-and-personas.md) | Define key roles and responsibilities |
+## Quick links
+- Project overview: docs/octoacme-project-management-overview.md
+- Initiation: docs/octoacme-project-initiation.md
+- Planning: docs/octoacme-project-planning.md
+- Execution & Tracking: docs/octoacme-execution-and-tracking.md
+- Risks & Communication: docs/octoacme-risks-and-communication.md
+- Release & Deployment: docs/octoacme-release-and-deployment.md
+- Retrospective & Continuous Improvement: docs/octoacme-retrospective-and-continuous-improvement.md
+- Roles & Personas: docs/octoacme-roles-and-personas.md
+- Templates & Checklists: docs/templates/checklists.md
 
 ## How to use these docs
-1. Start with the [Project Management Overview](octoacme-project-management-overview.md).
-2. For a new project, follow the [Project Initiation Guide](octoacme-project-initiation.md).
-3. Use the phase-specific guides (Planning → Execution → Release → Retrospective) as work progresses.
-4. Add project-specific artifacts (one-pager, risk register, acceptance criteria) to the project repo and keep these docs as the canonical process reference.
-5. To include these docs in Copilot Spaces, add process-specific docs into `.copilot/` as needed.
+1. Read the Project Management Overview to understand our principles and core roles.
+2. When starting a new initiative, follow the Project Initiation guide and use the One-pager template.
+3. During Planning, populate the backlog and risk register, and pick templates from docs/templates/.
+4. During Execution, follow the Execution & Tracking guidance and use the checklists for PRs, releases, and QA.
+5. After release, run a Retrospective and add action items to the backlog.
 
-## Quick Start for New Team Members
-- Read the Overview.
-- Use the Initiation checklist to create a one-pager and stakeholder list.
-- Follow Planning to produce a prioritized backlog and release plan.
-- Execute using the Execution & Tracking workflows and update the risk register weekly.
-- At release, follow the Release & Deployment checklist and run post-release verifications.
-- Run retrospectives and convert action items into issues with owners and due dates.
+## Process flow (concise)
+Initiation → Planning → Execution → Release → Retrospective
 
-## Feedback & Contributions
-To propose edits or add new process content, open an issue using the "Add Content to Project Management Process Docs" template in `.github/ISSUE_TEMPLATE/`.
+## Contributions
+- To propose content changes or additions, use the repository issue template: .github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml
+- Suggested edits should include a summary, rationale, and example content where possible.
+- For changes that affect multiple teams, get stakeholder review before merging.
+
+## Maintainers & Contacts
+Project process maintainers:
+- Docs owner / PM: (add name/contact)
+- Recommended reviewers: PM, PdM, Technical Lead
+
+## Acceptance criteria for changes
+- Aligns with existing process docs
+- Improves clarity or closes a documented gap
+- Includes owner and expected impact
+
+## Changelog (proposed)
+- Proposed: Add README as central entry point and templates file. (This PR)
